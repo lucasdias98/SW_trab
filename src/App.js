@@ -8,7 +8,7 @@ function App() {
 
   return (
     <main className="column">
-      <h1>Auth0 Login</h1>
+      <h1>Sistema de Login com Auth0</h1>
       {error && <p>Authentication Error</p>}
       {!error && isLoading && <p>Loading...</p>}
       {!error && !isLoading && (
